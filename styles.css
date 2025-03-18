@@ -1,0 +1,95 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #1e1e2e;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #282a36;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Login Box */
+.login-box, .profile-box, .main-content, .creators, .info, .faq {
+    margin: 50px auto;
+    padding: 30px;
+    width: 50%;
+    background-color: #2b2d42;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #ff6b81;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff4757;
+}
+
+/* Dashboard */
+.profile-box {
+    width: 60%;
+    background: #2b2d42;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Main Page */
+.main-content {
+    background-color: #1e90ff;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* Creators Page */
+.creators {
+    background-color: #ff6348;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* Info Page */
+.info {
+    background-color: #ffa502;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* FAQ Page */
+.faq {
+    background-color: #2ed573;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #282a36;
+    color: white;
+}
